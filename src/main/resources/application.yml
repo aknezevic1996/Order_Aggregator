@@ -1,0 +1,11 @@
+spring:
+  main:
+    web-application-type: none
+  kafka:
+    bootstrap-servers: kafka:9093
+    streams:
+      application-id: ubiety-aggregator
+
+logging:
+  level:
+    root: INFO
