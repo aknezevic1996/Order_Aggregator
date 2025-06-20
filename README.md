@@ -28,7 +28,7 @@ chmod +x streaming_setup.sh
 
 python3 -m venv .venv #if needed
 
-.venv/bin/activate #if needed
+source .venv/bin/activate #if needed
 
 ./streaming_setup.sh kafka
 ```
