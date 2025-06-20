@@ -116,7 +116,7 @@ Timestamps are of different formats as `window_start` is serialized from a `Loca
 ```java
 @Configuration
 @EnableKafkaStreams
-public class StreamsConfig {
+public class StreamsConfiguration {
     //...
 }
 ```
